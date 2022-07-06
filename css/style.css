@@ -209,7 +209,7 @@ input.button {
     border-radius: 5px 0px 0px 5px;
     font-size: 16px;
     font-family: inherit;
-    width: 70%;
+    width: 65%;
 }
 
 .subsribe-button {
@@ -220,7 +220,7 @@ input.button {
     border-radius: 0px 5px 5px 0;
     font-size: 16px;
     font-family: inherit;
-    width: 30%;
+    width: 35%;
 }
 
 footer {

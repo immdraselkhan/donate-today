@@ -1,0 +1,232 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+section {
+    padding: 50px 0 50px;
+    margin: 0 5% 0;
+}
+
+.first-section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.3)), url(/images/first-section-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.donate-now {
+    padding: 150px 0 150px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.donate-now p {
+    margin-bottom: 25px;
+}
+
+.button {
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+
+.donate-today {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.donate-box {
+    display: inline-flex;
+    padding: 0;
+}
+
+.donate-amount {
+    list-style: none;
+    background-color: #FAFAFA;
+    padding: 30px 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    margin: 0 10px 0;
+    border-radius: 5px;
+}
+
+.donate-box .selected {
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    color: #FF5959;
+}
+
+.custom-amount {
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+input.button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    margin-top: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.donate-plans {
+    display: flex;
+    margin-top: 50px;
+}
+
+.donate-plans>div>img {
+    height: 50px;
+}
+
+.food-plan {
+    background-color: #4F9DA6;
+    padding: 50px 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    width: 33.33%;
+}
+
+.housing-plan {
+    background-color: #FF5959;
+    padding: 50px 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    width: 33.33%;
+}
+
+.medical-plan {
+    background-color: #FFF4D6;
+    padding: 50px 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    width: 33.33%;
+}
+
+.donate-plans>div>h3 {
+    font-size: 22px;
+}
+
+.fourth-section {
+    display: flex;
+}
+
+.why-help {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.why-help-img {
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 5px;
+}
+
+.why-help-img>img {
+    border-radius: 5px;
+}
+
+.fifth-section {
+    display: flex;
+}
+
+.what-difference-img {
+    margin-right: auto;
+    margin-left: 0;
+    border-radius: 5px;
+}
+
+.what-difference-img>img {
+    border-radius: 5px;
+}
+
+.what-difference {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.subscribe-box {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #FFF4D6;
+    padding: 100px 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.subscribe-form {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.subscribe-email {
+    background: #D9D9D9;
+    border: none;
+    padding: 20px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 16px;
+    font-family: inherit;
+    width: 70%;
+}
+
+.subsribe-button {
+    background-color: #FF5959;
+    color: #FFF;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 0px 5px 5px 0;
+    font-size: 16px;
+    font-family: inherit;
+    width: 30%;
+}
+
+footer {
+    background-color: #0B0D17;
+    padding: 50px 0 50px;
+    text-align: center;
+}
+
+footer>div>h1 {
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+}
+
+footer>div>p {
+    color: #FFF;
+}

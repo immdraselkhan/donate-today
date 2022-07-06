@@ -97,6 +97,10 @@ input.button {
     font-size: 16px;
 }
 
+.third-section {
+    padding-top: 0;
+}
+
 .section-title {
     text-align: center;
 }
@@ -177,6 +181,10 @@ input.button {
     width: 50%;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.sixth-section {
+    padding-top: 0;
 }
 
 .subscribe-box {

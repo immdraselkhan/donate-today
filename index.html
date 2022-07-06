@@ -14,32 +14,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="first-section">
-        <div class="donate-now">
+    <section class="top-section">
+        <div class="top-inner-section">
             <h1>Bangladesh Monsoon Emergency</h1>
             <p>Over 70% of Sylhet is under water, this is one of the largest regions in Bangladesh. Thousands of people have fled for safety, while millions have been left stranded due to the monsoon floods across the region, with dozens tragically having lost their lives.</p>
             <a class="button" href="#">Donate Now</a>
         </div>
     </section>
-    <section class="second-section">
-        <div class="donate-today">
+    <section class="donate-today">
+        <div class="inner-section">
             <h2>Donate Today</h2>
             <p>In Bangladesh people have been affected by monsoon floods from heavy and persistent rainfall which has forced thousands of people to abandon their homes.</p>
-            <form action="#">
-                <ul class="donate-box">
-                    <li class="donate-amount">100tk</li>
-                    <li class="donate-amount selected">200tk</li>
-                    <li class="donate-amount">500tk</li>
-                    <li class="donate-amount">1000tk</li>
-                    <li class="donate-amount">5000tk</li>
-                </ul>
-                <input class="custom-amount" type="number" placeholder="Other Amount (Taka)">
-                <input class="button" type="submit" value="Donate Now">
-            </form>
+        </div>
+        <div class="inner-section">
+            <ul class="donate-box">
+                <li class="donate-amount">100tk</li>
+                <li class="donate-amount selected">200tk</li>
+                <li class="donate-amount">500tk</li>
+                <li class="donate-amount">1000tk</li>
+                <li class="donate-amount">5000tk</li>
+            </ul>
+            <input id="custom-amount" type="number" placeholder="Other Amount (Taka)">
+            <input class="button" type="submit" value="Donate Now">
         </div>
     </section>
-    <section class="third-section">
-        <div class="section-title">
+    <section>
+        <div class="inner-section">
             <h2>Our Donate Plan</h2>
             <p>We plan to help the most vulnerable people to access nutritious food and essential items as soon as possible.</p>
         </div>
@@ -61,35 +61,39 @@
             </div>
         </div>
     </section>
-    <section class="fourth-section">
-        <div class="why-help">
-            <h2>Why Are You Helping?</h2>
-            <p>In Bangladesh people have been affected by monsoon floods from heavy and persistent rainfall which has forced thousands of people to abandon their homes. The downpours have caused extensive damage to thousands of houses, water sources, food stores, farmland and roads.</p>
-            <a class="button" href="#">Donate Now</a>
+    <section class="featured-section">
+        <div class="inner-section">
+            <h2>Featured Causes</h2>
+            <p>We makes it easy to donate to reliable, locally-led disaster relief and recovery efforts around the world.</p>
         </div>
-        <div class="why-help-img">
-            <img src="images/why-you-help.jpg" alt="">
+        <div class="featured-causes">
+            <div class="featured-cause-1">
+                <h4>UKRAIN</h4>
+                <h3><a href="#">Ukrain Crisis Relief Fund</a></h3>
+            </div>
+            <div class="featured-cause-2">
+                <h4>SOMALIA</h4>
+                <h3><a href="#">East Africa Hunger Relief Fund</a></h3>
+            </div>
+            <div class="featured-cause-3">
+                <h4>AFGANISTAN</h4>
+                <h3><a href="#">Afghanistan Emergency Fund</a></h3>
+            </div>
+            <div class="featured-cause-4">
+                <h4>UNITED STATES</h4>
+                <h3><a href="#">Hope in Crisis Fund</a></h3>
+            </div>
         </div>
     </section>
-    <section class="fifth-section">
-        <div class="what-difference-img">
-            <img src="images/difference-will.jpg" alt="">
-        </div>
-        <div class="what-difference">
-            <h2>What Difference Will?</h2>
-            <p>Our intentions are to provide Emergency Aid to those in need and help the flood victims of Bangladesh with food packs and essential items. Your domations will help them to get clean water, sanitation, education, health, children welfare, etc. Individual donors can click the Donate button above to make a credit card donation. For large gifts (via check, bank transfer, stock, or cryptocurrency) or corporate giving opportunities, please contact our international giving team.</p>
-            <a class="button" href="#">Donate Now</a>
-        </div>
-    </section>
-    <section class="sixth-section">
-        <div class="section-title">
+    <section>
+        <div class="inner-section">
             <h2>Get Our Updates</h2>
-            <p>Subscribe to get update about how your donations makes them happy.</p>
+            <p>Subscribe to get update about new crisis & how your donations makes them happy.</p>
         </div>
         <div class="subscribe-box">
-            <form class="subscribe-form" action="#">
-                <input class="subscribe-email" type="email" placeholder="Email">
-                <input class="subsribe-button" type="submit" value="Subscribe">
+            <form id="subscribe-form" action="#">
+                <input id="subscribe-email" type="email" placeholder="Enter Your Email" required>
+                <input id="subsribe-button" type="submit" value="Subscribe">
             </form>
         </div>
     </section>

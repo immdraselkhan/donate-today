@@ -7,6 +7,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #FFF;
 }
 
 h1 {
@@ -20,27 +21,39 @@ h2 {
 }
 
 section {
-    padding: 50px 0 50px;
-    margin: 0 5% 0;
+    margin: 0 auto;
+    padding: 25px 5% 25px;
+    max-width: 1500px;
 }
 
-.first-section {
+.inner-section {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top-section {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.3)), url(../images/first-section-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0;
+    padding: 50px 0 50px;
+    margin: 0 auto;
+    max-width: 100vw;
 }
 
-.donate-now {
+.top-inner-section {
     padding: 150px 0 150px;
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    max-width: 1500px;
     color: #fff;
 }
 
-.donate-now p {
-    margin-bottom: 25px;
+.top-inner-section p {
+    padding-bottom: 25px;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .button {
@@ -51,9 +64,7 @@ section {
 }
 
 .donate-today {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .donate-box {
@@ -78,10 +89,11 @@ section {
     color: #FF5959;
 }
 
-.custom-amount {
+#custom-amount {
     border: none;
     border-bottom: 1px solid #DADADA;
     width: 80%;
+    max-width: 700px;
     margin-top: 20px;
     padding: 20px 0;
     text-align: center;
@@ -95,14 +107,6 @@ input.button {
     margin-top: 25px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-}
-
-.third-section {
-    padding-top: 0;
-}
-
-.section-title {
-    text-align: center;
 }
 
 .donate-plans {
@@ -143,48 +147,55 @@ input.button {
     font-size: 22px;
 }
 
-.fourth-section {
+.featured-section {
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.featured-causes {
     display: flex;
+    width: 100%;
+    margin-top: 50px;
 }
 
-.why-help {
-    width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
+.featured-cause-1 {
+    background: linear-gradient(to bottom,rgba(41,53,65,0) 5%,rgba(41,53,65,.8) 50%,#3d4e5e 100%), url(../images/featured-cause-1.jpg);
 }
 
-.why-help-img {
-    margin-left: auto;
-    margin-right: 0;
-    border-radius: 5px;
+.featured-cause-2 {
+    background: linear-gradient(to bottom,rgba(41,53,65,0) 5%,rgba(41,53,65,.8) 50%,#3d4e5e 100%), url(../images/featured-cause-2.jpg);
 }
 
-.why-help-img>img {
-    border-radius: 5px;
+.featured-cause-3 {
+    background: linear-gradient(to bottom,rgba(41,53,65,0) 5%,rgba(41,53,65,.8) 50%,#3d4e5e 100%), url(../images/featured-cause-3.jpg);
 }
 
-.fifth-section {
-    display: flex;
+.featured-cause-4 {
+    background: linear-gradient(to bottom,rgba(41,53,65,0) 5%,rgba(41,53,65,.8) 50%,#3d4e5e 100%), url(../images/featured-cause-4.jpg);
+    margin-right: 0!important;
 }
 
-.what-difference-img {
-    margin-right: auto;
-    margin-left: 0;
-    border-radius: 5px;
+.featured-cause-1, .featured-cause-2, .featured-cause-3, .featured-cause-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 25%;
+    padding: 150px 15px 15px;
+    margin-right: 3px;
 }
 
-.what-difference-img>img {
-    border-radius: 5px;
+.featured-cause-1>h4, .featured-cause-2>h4, .featured-cause-3>h4, .featured-cause-4>h4 {
+    font-size: 13px;
+    margin: 0;
+    font-weight: 500;
+    color: #C4C7CA;
 }
 
-.what-difference {
-    width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.sixth-section {
-    padding-top: 0;
+.featured-cause-1>h3, .featured-cause-2>h3, .featured-cause-3>h3, .featured-cause-4>h3 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
 }
 
 .subscribe-box {
@@ -194,15 +205,16 @@ input.button {
     padding: 100px 150px;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 15px;
 }
 
-.subscribe-form {
+#subscribe-form {
     display: flex;
     width: 100%;
     margin: 0 auto;
 }
 
-.subscribe-email {
+#subscribe-email {
     background: #D9D9D9;
     border: none;
     padding: 20px;
@@ -212,7 +224,7 @@ input.button {
     width: 65%;
 }
 
-.subsribe-button {
+#subsribe-button {
     background-color: #FF5959;
     color: #FFF;
     padding: 20px 30px;

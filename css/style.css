@@ -25,7 +25,7 @@ section {
 }
 
 .first-section {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.3)), url(images/first-section-bg.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.3)), url(../images/first-section-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
